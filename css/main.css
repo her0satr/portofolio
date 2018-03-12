@@ -1,6 +1,7 @@
  
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=cyrillic');
 
+@font-face{font-family:"Windsong";src:url("../fonts/Windsong.ttf");}
 
 /* === 2. Reset Default Styles === */
 
@@ -365,6 +366,9 @@ a.icon {
 .signature {
 	margin: 20px 0;
 	text-align: right;
+	font-family: Windsong;
+	text-align: center;
+	font-size: 35px;
 }
 
 .signature img {
